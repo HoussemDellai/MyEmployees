@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MyEmployees.Client.Views.EditPage"
+             Title="Edit">
+  
+  <StackLayout>
+    <Entry x:Name="NameEntry"
+           FontSize="50"/>
+    <Entry x:Name="DepartmentEntry"
+           FontSize="50"/>
+    <Button Text="Edit Employee"
+            FontSize="30"
+            TextColor="White"
+            BackgroundColor="Navy"
+            Clicked="EditEmployee_Clicked"/>
+    <Button Text="Delete Employee"
+          FontSize="30"
+          TextColor="White"
+          BackgroundColor="Red"
+          Clicked="DeleteEmployee_Clicked"/>
+    
+  </StackLayout>
+  
+</ContentPage>

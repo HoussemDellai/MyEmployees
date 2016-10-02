@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MyEmployees.Client.Views.AddPage"
+             Title="Add">
+  
+  <StackLayout Orientation="Vertical">
+    <Entry x:Name="NameEntry"
+           FontSize="50"
+           Placeholder="Name"/>
+    <Entry x:Name="DepartmentEntry"
+           FontSize="50"
+           Placeholder="Department"/>
+    <Button Text="Add Employee"
+            FontSize="50"
+            TextColor="White"
+            BackgroundColor="Teal"
+            Clicked="AddEmployee_Clicked"/>
+  </StackLayout>
+  
+</ContentPage>
